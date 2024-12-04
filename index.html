@@ -53,14 +53,14 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Bare-Hand Interaction for Whiteboard Collaboration</h1>
-            <a>Author: </a>
+            <p></p>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span><a>Guangtian Liu</a></span>    
+              <span style="font-size: 24px;">Author: <a>Guangtian Liu</a></span>    
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Beijing University of Posts and Telecommunications</span>                    
+              <span class="author-block" style="font-size: 24px;">Beijing University of Posts and Telecommunications</span>                    
             </div>                                                
         </div>
       </div>
@@ -68,15 +68,38 @@
   </div>
 </section>
 
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified" style="font-size: 20px;">
+          <p>
+            Today, VR systems relying on device-based interactions, such as controllers or gloves, often face significant usability challenges. These devices can feel unnatural, requiring users to learn complex control schemes that disrupt immersion. Moreover, the reliance on hardware introduces logistical issues like cost, weight, and battery life, creating barriers for widespread adoption. For users, these devices may also lead to fatigue during prolonged sessions and restrict accessibility in scenarios where quick setup or minimal equipment is desirable. Such limitations hinder the vision of seamless, intuitive VR experiences and restrict VR's applicability across diverse fields such as education, healthcare, and entertainment.
+          </p>
+          <p>          
+Instead of relying on physical devices, we propose leveraging the user's natural hand movements as the primary interaction mechanism—an approach enabled by advances in hand-tracking technologies and machine learning for gesture recognition. This shift eliminates the dependency on external hardware, providing a more intuitive and immersive experience. By using cameras and sensors to accurately track hand positions and interpret gestures, VR systems can replicate real-world interactions in the virtual space, offering users the freedom to grab, push, or manipulate virtual objects without breaking immersion.
+          </p>
+          <p>
+            Our research focuses on developing scalable hand-tracking and reconstruction solutions capable of maintaining high precision and low latency across a wide range of environments. Specifically, we are improving gesture recognition and reconstruction algorithms to handle occlusion, dynamic lighting, and complex backgrounds while ensuring efficient real-time processing. This enables interactions that feel fluid and responsive, even in challenging conditions. By integrating haptic feedback mechanisms and multi-modal interaction systems, such as combining hand gestures with voice commands or eye tracking, we further aim to enhance user control and engagement.
+          </p>
+          <p>
+            Our recent research has achieved notable advancements in VR bare-hand interaction, particularly in whiteboard collaboration within virtual environments. We addressed challenges in recognizing pen-drop, writing, and pen-lift intentions, proposing two methods: Air-writing, which adjusts the virtual whiteboard's position for consistent writing without physical surfaces, and Physical-writing, which uses passive haptic feedback by aligning the virtual whiteboard with real-world planes. User studies demonstrated an 8% improvement in communication efficiency over controllers, with Physical-writing achieving higher accuracy and user satisfaction. These results highlight the potential of bare-hand interaction to deliver immersive, natural, and efficient VR experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<section class="hero teaser" style="flex-direction: row;">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Video Figure</h2>
+        <h2 class="title is-3" style="margin-top: 30px; justify-content: left;">Video Figure</h2>
       </div>
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video poster="" id="tree" autoplay controls muted loop height="100%" style="display: block; margin: auto;">
         <!-- Your video here -->
         <source src="static/videos/Video Figure.mp4"
         type="video/mp4">
@@ -84,23 +107,41 @@
     </div>
   </div>
 </section>
-<!-- End teaser video -->
 
-<!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-Whiteboard collaboration in virtual reality (VR) is an important task in collaborative virtual environments. The current research mainly relies on the use of controllers or dedicated pens but additional devices will cause inconvenience to users. Bare-hand writing offers rich collaborative semantics through natural gestures but remains underexplored. This paper addresses challenges and solutions for bare-hand whiteboard collaboration. We analyze the input process and identify key challenges in determining pen-drop, writing, and pen-lift intentions while maintaining user control over their avatar. Our approach addresses two VR scenarios: one without and one with physical planes. The method for the first case is called Air-writing, which dynamically adjusts the distance between the avatar’s torso and the virtual whiteboard during the processes of pen-drop and pen-lift to ensure a consistent writing experience in VR. The method for the second case is called Physical-writing, which allows users to write smoothly with passive haptic feedback and physical constraints provided by the real surface by remapping the whiteboard in VR with a plane in reality. A comprehensive user study is conducted to evaluate communication efficiency, input accuracy, collaboration efficiency, and user experience of the two methods. The experimental results indicate that bare-hand interaction improves communication efficiency by 8% over controllers and performs similarly to real-world whiteboard collaboration. The Physical-writing method also demonstrates higher accuracy and user satisfaction compared to the Air-writing method.
-          </p>
+        <h2 class="title is-3">Publication</h2>
+        <div class="content has-text-justified" style="font-size: 20px;">
+          <p>Towards Bare-Hand Interaction for Whiteboard Collaboration in Virtual Reality. (Accepted in CSCW 2025, Paper Coming Soon)</p>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span>
+              <a>Guangtian Liu</a><sup>*</sup>,</span>
+              <span>
+                <a>Haonan Su</a><sup>*</sup>,</span>
+                <span>
+                  <a href="https://teacher.bupt.edu.cn/wangjingyu/zh_CN/index.htm" target="_blank">Jingyu Wang</a><sup>&#10013</sup>,</span>
+                    <span>
+                      <a>Qi Qi, </a>
+                        <span>
+                          <a>Haifeng Sun, </a>
+                            <span>
+                              <a>Zirui Zhuang, </a>
+                                 <span>
+                                  <a>Pengfei Ren, </a>
+                                   <span>
+                                    <a>Jianxin Liao</a>
+                </span>
+                </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 <!-- End paper abstract -->
 
 
@@ -232,7 +273,7 @@ End BibTex citation -->
 
   <footer class="footer">
   <div class="container">
-    <div class="columns is-centered">
+    <div class="columns is-centered" style="justify-content: center;">
       <div class="column is-8">
         <div class="content">
 

@@ -133,5 +133,18 @@ body {
   font-size: smaller;
 }
 
+.container {
+  max-width: 1200px;
+}
 
+.has-text-centered {
+  text-align: left !important;
+}
 
+.columns.is-centered {
+  justify-content: left
+}
+
+.column.is-four-fifths {
+  width: 100%;
+}
