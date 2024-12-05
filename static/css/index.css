@@ -158,11 +158,11 @@ body {
   text-align: center !important;
 }
 
-.img {
+.mygif {
   display:flex;
   justify-content: center;
 }
-.carousel{
+.myimg{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
 }
